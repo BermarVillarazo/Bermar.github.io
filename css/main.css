@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: monospace;
+    background-color: rgb(77, 72, 68);
+    font-size: 20px;
+}
+
+div.parent {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 550px;
+    width: 90%;
+    margin-top: 25px;
+}
+
+.child {
+    border: 5px solid rgb(230, 199, 199);
+    background-color: rgb(111, 122, 122);
+}
+
+.title {
+    text-align: center;
+    padding: 10px 32px 10px 10px;
+    border-bottom: 5px solid rgb(230, 199, 199);
+}
+
+.title::before {
+    content: '</>  ';
+    color: rgb(0, 255, 225);
+}
+
+.title::after {
+    content: '  </>';
+    color: rgb(0, 255, 225);
+}
+
+.child, .title {
+    border-radius: 5px;
+}
+
+.pic4 {
+    float: left;
+    margin: 2px 0 2px 2px;
+}
+
+.infos {
+    padding: 15px;
+}
+
+p {
+    padding: 15px;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+    width: 10px;
+    height: 10px;
+}
+
+img {
+    width: 40px;
+    margin: 0 5px;
+}
+
+footer {    
+    text-align: center;
+    margin-top: 35px;
+}
+
